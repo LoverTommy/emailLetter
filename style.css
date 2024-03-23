@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 786px;
+    width: 100%;
+    margin: 0 auto;
+    height: 4000px;
+}
+
+/* Header */
+
+.header .headerImage {
+    position: relative;
+}
+
+.header .letterImage {
+    position: absolute;
+    top: 420px;
+}
+
+.headerTitle {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.headerTitle h1 {
+    padding: 0px 20px;
+    font-family: 'SF Pro Display Regular';
+    font-weight: 400;
+    font-size: 26px;
+    filter: drop-shadow(0px 5px rgba(0, 0, 0, 0.13));
+}
+
+.headerTitle span{
+    font-family: 'SF Pro Display Bold';
+    font-size: 26px;
+}
+
+/* promotion */
+
+.promotion {
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.promotion .title {
+    display: flex;
+    gap: 10px;
+}
+
+.promotion .title h2 {
+    font-family: 'SF Pro Display Bold';
+    font-size: 26px;
+}
+
+.promotion .title img {
+    object-fit: contain;
+}
+
+.promotion .item .tgName {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.promotion .item .tgName div,
+.promotion .item .price {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.promotion .item .tgName div h4,
+.promotion .item .price h4 {
+    font-size: 26px;
+    font-family: 'SF Pro Display SemiBold';
+}
+
+.promotion .item .tgName div span,
+.promotion .item .price span {
+    font-family: 'SF Pro Text Regular';
+    font-size: 18px;
+    color: #818C99;
+}
+
+.promotion .item a {
+    text-decoration: none;
+    background-color: #2CCC89;
+    color: white;
+    font-family: 'SF Pro Display Regular';
+    font-size: 22px;
+    padding: 12px 35px;
+    border-radius: 12px;
+    transition: 0.8s;
+}
+
+.promotion .item a:hover {
+    background-color: #0597da;
+}
+
+.promotion .item {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+/* aboutUs */
+
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    gap: 30px;
+}
+
+.aboutUs h2 {
+    font-family: 'SF Pro Display Bold';
+    font-size: 26px;
+}
+
+.aboutUs .items {
+    display: grid;
+    grid-template-columns: 343px 343px;
+    grid-template-rows: 228px 228px;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.aboutUs .items .item {
+    padding: 40px 35px;
+    border-radius: 20px;
+    background: linear-gradient(100deg, #0597da 5%, #39C1F1 60%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.aboutUs .items .item h4 {
+    font-family: 'SF Pro Display Bold';
+    font-size: 26px;
+    color: white;
+}
+
+.aboutUs .items .item p {
+    font-family: 'Roboto Regular';
+    font-size: 16px;
+    color: white;
+    line-height: 140%;
+}
+
+.aboutUs .question {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.aboutUs .question h2 {
+    font-family: 'SF Pro Text Regular';
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.aboutUs .question a {
+    width: max-content;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-family: 'SF Pro Text Regular';
+    padding: 12px 28px;
+    border-radius: 12px;
+    font-size: 18px;
+    transition: 0.8s;
+}
+
+.aboutUs .question a:hover {
+    background-color: #2CCC89;
+}
+
+
+
+
